@@ -1,3 +1,5 @@
+Final Simulation Link: https://circuitverse.org/users/15874/projects/47316
+
 ### Question
 Design a circuit (Boolean Expression) w/ logic gate that can convert a decimal number to binary
 
