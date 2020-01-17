@@ -45,19 +45,7 @@ We can generate a truth table consisting each case where one(and only one) switc
 ### Equations
 To represent the state (0/1) of each LED, we can use a boolean equation
 
-Using SOP Method:
-
-$W(A,B,...,J)$ = $\sum{_m}(8,9)$
-$X(A,B,...,J)$ = $\sum{_m}(4,5,6,7)$
-$Y(A,B,...,J)$ = $\sum{_m}(2,3,6,7)$
-$Z(A,B,...,J)$ = $\sum{_m}(1,3,5,7,9)$
-
-After simplifying,
-
-$W(A,B,...,J)$ = $\bar A\bar B\bar C\bar D\bar E\bar F\bar G\bar H.(I \oplus J)$
-$X(A,B,...,J)$ = $\bar A\bar B\bar C\bar D\bar I\bar J .[ \bar G\bar H(E \oplus F) + \bar E\bar F(G \oplus H) ]$
-$Y(A,B,...,J)$ = $\bar A\bar B\bar E\bar F\bar I\bar J .[ \bar G\bar H(C \oplus D) + \bar C\bar D(G \oplus H) ]$
-$Z(A,B,...,J)$ = $\bar A\bar C\bar E\bar G\bar I .[ \bar F\bar H\bar J(B \oplus D) + \bar B\bar D\bar J(F \oplus H) + \bar B\bar D\bar F\bar H J ]$
+![equations](equations.png "Equations")
 
 ### The circuit
 We get the following circuit after implementing the equations
