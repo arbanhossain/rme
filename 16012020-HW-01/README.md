@@ -34,9 +34,11 @@ So the LED turns on when we send a **1** and turns off when given a signal **0**
 Each of the number is represented by a switch that has two states - on(1)/off(0) marked A-J
 
 ![](switches.png "Switch")
+
 The output is a set of 4 LEDs representing each bit of the binary number where a turned on LED means 1 and a turned off LED means 0.
 
 ![](output.png "Output")
+
 Inititally, all of them are turned off.
 
 ### Table
